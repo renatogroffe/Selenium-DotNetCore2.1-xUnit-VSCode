@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  conversordistancias:
+    image: site-conversordistancias
+    build:
+      context: .
+    ports:
+      - "1234:80"
